@@ -108,7 +108,7 @@ public class Bot extends TelegramLongPollingBot {
 	@Override
 	public String getBotToken() {
 		// TODO Auto-generated method stub
-		return "5703273553:AAFfeybvzPgpi82d6hyhErxmTpVlilCqw8U";
+		return null;
 	}
 
 }
