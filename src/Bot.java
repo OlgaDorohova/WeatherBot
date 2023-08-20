@@ -67,14 +67,6 @@ public class Bot extends TelegramLongPollingBot {
 
 	}
 
-//	public void sendIcon(long chatId, String text) throws Exception {
-//		Bot bot = new Bot();
-//		SendMessage message = new SendMessage();
-//		message.setChatId(chatId);
-//		bot.send_photo(message.getChatId(), open("path/to/file","rb"), text);
-//
-//	}
-
 	public void sendText(long chatId, String text) throws Exception {
 		SendMessage msg = new SendMessage();
 		msg.enableHtml(true);
